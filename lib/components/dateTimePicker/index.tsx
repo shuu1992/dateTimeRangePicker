@@ -1,6 +1,6 @@
 import { DateTimePicker } from '@mui/x-date-pickers/DateTimePicker';
-import CustomLayout from '@components/dateTimePicker/layout';
-import ActionBar from '@components/dateTimePicker/actionbar';
+import CustomLayout from './layout';
+import ActionBar from './actionbar';
 export default function CustomizedDateTimePicker(props: any) {
   return (
     <DateTimePicker
